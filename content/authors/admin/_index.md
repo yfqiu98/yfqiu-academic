@@ -6,7 +6,7 @@ title: Yifu Qiu
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: PhD student in Natural Language Processing
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -18,22 +18,25 @@ bio: My research interests include Machine Learning, Natural Language Processing
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Text Summarization
+- Crosslingual NLP
+- Open-domain Question Answering
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Natural Language Processing
+    institution: Institute of Language, Cognition and Computation (ILCC), University of Edinburgh
+    year: 2022
+  - course: PhD in Natural Language Processing (co-advised by Prof Anna Korhonen as part of ELLIS PhD)
+    institution: Language Technology Lab (LTL), University of Cambridge
+    year: 2022
+  - course: MSc in Cognitive Science
+    institution: School of Informatics, University of Edinburgh
+    year: 2020
+  - course: BSc in Computer Science and Techonology
+    institution: Beijing Normal University-Hong Kong Baptist University United International College
+    year: 2016
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
