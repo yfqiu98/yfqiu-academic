@@ -28,9 +28,6 @@ education:
   - course: PhD in Natural Language Processing
     institution: Institute of Language, Cognition and Computation (ILCC), University of Edinburgh
     year: 2022
-  <! -- - course: PhD in Natural Language Processing (co-advised by Prof Anna Korhonen as part of ELLIS PhD)
-    institution: Language Technology Lab (LTL), University of Cambridge
-    year: 2022 --> 
   - course: MSc in Cognitive Science
     institution: School of Informatics, University of Edinburgh
     year: 2020
