@@ -72,4 +72,6 @@ highlight_name: true
 
 I pursue my doctoral studies at University of Edinburgh and University of Cambridge, advised by Shay Cohen and Anna Korhonen in the ELLIS PhD & PostDoc program.
 
+Prior to starting my PhD, I spent time at Baidu NLP as an Research Intern where I worked on Open-domain Question Answering and Dense Retrieval. During my MSc, I worked on text summarization and structured prediction with Shay Cohen at University of Edinburgh.
+
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
