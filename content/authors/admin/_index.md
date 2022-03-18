@@ -73,6 +73,6 @@ My vision is to build Natural Language Processing systems capable of grounding a
 
 I pursue my doctoral studies at the Institute of Language, Cognition and Computation in University of Edinburgh and Language Technology Lab in University of Cambridge, advised by Shay Cohen and Anna Korhonen in the ELLIS PhD & PostDoc program, a pan-European network of excellence in AI research. 
 
-Prior to starting my PhD, I spent time at Baidu NLP as an Research Intern where I worked on Open-domain Question Answering and Dense Retrieval. I obtained my MSc from University of Edinburgh and worked on text summarization and structured prediction with Shay Cohen.
+Prior to starting my PhD, I spent time at Baidu NLP as a Research Intern where I worked on Open-domain Question Answering and Dense Retrieval. I obtained my MSc from University of Edinburgh and worked on text summarization and structured prediction with Shay Cohen.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
