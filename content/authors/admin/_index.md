@@ -69,8 +69,9 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+My vision is to build Natural Language Processing systems capable of grounding and applying the physical world knowledge. I am broadly interested in understanding the knowledge entailed in the NLP models (e.g., any interpretable components like relational dependency/geometric structure), and applying the knowledge (e.g., symbolic knowledge graph or continuous knowledge base) to improve the learning efficiency and generalisation ability.
 
-I pursue my doctoral studies at University of Edinburgh and University of Cambridge, advised by Shay Cohen and Anna Korhonen in the ELLIS PhD & PostDoc program.
+I pursue my doctoral studies at University of Edinburgh and University of Cambridge, advised by Shay Cohen and Anna Korhonen in the ELLIS PhD & PostDoc program, a pan-European network of excellence in AI research. 
 
 Prior to starting my PhD, I spent time at Baidu NLP as an Research Intern where I worked on Open-domain Question Answering and Dense Retrieval. I obtained my MSc from University of Edinburgh and worked on text summarization and structured prediction with Shay Cohen.
 
