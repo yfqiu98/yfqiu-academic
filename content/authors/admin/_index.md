@@ -69,7 +69,7 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-My vision is to build Natural Language Processing systems capable of grounding and applying the physical world knowledge. I am broadly interested in understanding the knowledge entailed in the NLP models (e.g., any interpretable components like relational dependency/geometric structure), and applying the knowledge (e.g., symbolic knowledge graph or continuous knowledge base) to improve the learning efficiency and generalisation ability.
+My vision is to build Natural Language Processing systems capable of grounding and applying the physical world knowledge. I am broadly interested in understanding the knowledge entailed in the NLP models (e.g., any interpretable components like relational dependency/geometric structure), and applying the knowledge (e.g., symbolic knowledge graph or continuous knowledge base) to improve NLP model's learning efficiency and generalization ability.
 
 I pursue my doctoral studies at University of Edinburgh and University of Cambridge, advised by Shay Cohen and Anna Korhonen in the ELLIS PhD & PostDoc program, a pan-European network of excellence in AI research. 
 
