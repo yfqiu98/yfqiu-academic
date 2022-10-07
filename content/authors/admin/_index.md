@@ -30,34 +30,28 @@ education:
   courses:
   - course: PhD in Natural Language Processing
     institution: University of Edinburgh/Cambridge
-    year: 2022
+    year: 2022-2026
   - course: MSc in Cognitive Science
     institution: University of Edinburgh
-    year: 2020
+    year: 2020-2021
   - course: BSc in Computer Science and Techonology
     institution: BNU-HKBU United International College
-    year: 2016
+    year: 2016-2020
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '/#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: [https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ](https://scholar.google.com/citations?hl=en&user=OA6GaMwAAAAJ)
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: [https://github.com/gcushen](https://github.com/yfqiu98)
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: [https://www.linkedin.com/](https://www.linkedin.com/in/yfqiu/)
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
