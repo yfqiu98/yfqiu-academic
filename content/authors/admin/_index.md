@@ -38,7 +38,7 @@ education:
     institution: School of Informatics, University of Edinburgh
     year: 2020
   - course: BSc in Computer Science and Techonology
-    institution: Beijing Normal University-Hong Kong Baptist University United International College
+    institution: BNU-HKBU United International College
     year: 2016
 
 # Social/Academic Networking
