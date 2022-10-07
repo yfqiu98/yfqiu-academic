@@ -13,13 +13,16 @@ organizations:
 - name: University of Edinburgh
   url: https://www.ed.ac.uk/
 
+- name: University of Cambridge
+  url: https://www.cam.ac.uk/
+
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Machine Learning, Natural Language Processing, Cognitive Science.
 
 # Interests to show in About widget
 interests:
-- Text Summarization
-- Crosslingual NLP
+- Summarization
+- Multilingual NLP
 - Open-domain Question Answering
 
 # Education to show in About widget
@@ -27,6 +30,9 @@ education:
   courses:
   - course: PhD in Natural Language Processing
     institution: Institute of Language, Cognition and Computation (ILCC), University of Edinburgh
+    year: 2022
+  - course: PhD in Natural Language Processing
+    institution: Language Technology Lab, University of Cambridge
     year: 2022
   - course: MSc in Cognitive Science
     institution: School of Informatics, University of Edinburgh
