@@ -34,7 +34,7 @@ education:
   - course: MSc in Cognitive Science
     institution: University of Edinburgh
     year: 2020-2021
-  - course: BSc in Computer Science and Techonology
+  - course: BSc in Computer Science
     institution: BNU-HKBU United International College
     year: 2016-2020
 
