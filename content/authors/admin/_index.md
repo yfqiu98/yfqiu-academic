@@ -74,8 +74,8 @@ I recently work on the challenges of pretrained language model with three aspect
 2. Few-shot Learning
 3. Learning for Relational Knowledge (e.g., physical-world knowledge)
 
-I pursue my doctoral studies at the Institute of Language, Cognition and Computation in University of Edinburgh and Language Technology Lab in University of Cambridge, advised by Shay Cohen and Anna Korhonen in the ELLIS PhD & PostDoc program, a pan-European network of excellence in AI research. I am also a member of EdinburghNLP.
+I pursue my doctoral studies at the [Institute of Language, Cognition and Computation at University of Edinburgh](https://web.inf.ed.ac.uk/ilcc) and [Language Technology Lab at University of Cambridge](https://ltl.mmll.cam.ac.uk/), and I am fortunated to be advised by [Shay Cohen](https://homepages.inf.ed.ac.uk/scohen/), [Anna Korhonen](https://sites.google.com/site/annakorhonen/) and [Edoardo Ponti](https://ducdauge.github.io/) under [ELLIS PhD & PostDoc program](https://ellis.eu/), a pan-European network of excellence in AI research. I am also a member of [EdinburghNLP](https://edinburghnlp.inf.ed.ac.uk/).
 
-Prior to starting my PhD, I spent time at Baidu NLP as a Research Intern where I worked on Open-domain Question Answering and Dense Retrieval. I obtained my MSc from University of Edinburgh and worked on text summarization and structured prediction with Shay Cohen.
+Prior to starting my PhD, I spent time at [Baidu NLP](https://nlp.baidu.com/) as a Research Intern where I worked on Open-domain Question Answering and Dense Retrieval. I obtained my MSc from University of Edinburgh and worked on text summarization and structured prediction.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
