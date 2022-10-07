@@ -29,13 +29,10 @@ interests:
 education:
   courses:
   - course: PhD in Natural Language Processing
-    institution: Institute of Language, Cognition and Computation (ILCC), University of Edinburgh
-    year: 2022
-  - course: PhD in Natural Language Processing
-    institution: Language Technology Lab, University of Cambridge
+    institution: University of Edinburgh/Cambridge
     year: 2022
   - course: MSc in Cognitive Science
-    institution: School of Informatics, University of Edinburgh
+    institution: University of Edinburgh
     year: 2020
   - course: BSc in Computer Science and Techonology
     institution: BNU-HKBU United International College
