@@ -37,7 +37,7 @@ education:
   - course: BSc in Computer Science
     institution: BNU-HKBU United International College
     year: 2016-2020
-    
+
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -66,7 +66,13 @@ email: "yfqiu"at"ed.ac.uk"
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-My vision is to build Natural Language Processing systems capable of grounding and applying the physical world knowledge in a cognitive-inspire way. I am broadly interested in understanding the knowledge entailed in the NLP models (e.g., any interpretable components like relational dependency/geometric structure), and applying the knowledge (e.g., symbolic knowledge graph or continuous knowledge base) to improve NLP model's learning efficiency and generalization ability.
+The vision of my research is to understand the underlying mechanism of human intelligence from both the neural and cogintive perspectives, and finally approach the grand goal of building Artificial General Intelligence (AGI). More specifically, I research this broad question: "how can we teach the machine to acquire language ability?", also as known as Natural Language Processing (NLP).
+
+I recently work on the challenges of pretrained language model with three aspects:
+
+1. Systematic Generalization
+2. Few-shot Learning
+3. Learning for Relational Knowledge (e.g., physical-world knowledge)
 
 I pursue my doctoral studies at the Institute of Language, Cognition and Computation in University of Edinburgh and Language Technology Lab in University of Cambridge, advised by Shay Cohen and Anna Korhonen in the ELLIS PhD & PostDoc program, a pan-European network of excellence in AI research. I am also a member of EdinburghNLP.
 
