@@ -47,7 +47,7 @@ tags: [Summarization]
 
 url_pdf: 'https://arxiv.org/abs/2203.10232'
 url_code: 'https://github.com/baidu/DuReader/tree/master/DuReader-Retrieval'
-url_dataset: 'https://github.com/baidu/DuReader/tree/master/DuReader-Retrieval'
+# url_dataset: 'https://github.com/baidu/DuReader/tree/master/DuReader-Retrieval'
 url_poster: ''
 url_project: ''
 url_slides: ''
