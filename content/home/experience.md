@@ -25,7 +25,7 @@ experience:
   - title: PhD Student in Natural Language Processing
     company: Univeristy of Edinburgh/Cambridge
     company_url: ''
-    company_logo: org-edin
+    # company_logo: org-edin
     location: Edinburgh, Cambridge, UK
     date_start: '2022-10-01'
     date_end: ''
@@ -33,7 +33,7 @@ experience:
   - title: Research Intern in Natural Language Processing
     company: Baidu, Inc.
     company_url: ''
-    company_logo: org-baidu
+    # company_logo: org-baidu
     location: Beijing, China
     date_start: '2020-09-01'
     date_end: '2021-08-31'
@@ -41,7 +41,7 @@ experience:
   - title: MSc in Cognitive Science
     company: University of Edinburgh
     company_url: ''
-    company_logo: org-edin
+    # company_logo: org-edin
     location: Edinburgh, UK
     date_start: '2020-09-01'
     date_end: '2021-08-31'
@@ -49,7 +49,7 @@ experience:
   - title: BSc in Computer Science
     company: University of Edinburgh
     company_url: ''
-    company_logo: org-uic
+    # company_logo: org-uic
     location: Zhuhai, China
     date_start: '2016-09-01'
     date_end: '2020-08-31'
