@@ -40,10 +40,10 @@ abstract: In this paper, we present DuReader-retrieval, a large-scale Chinese da
 # Summary. An optional shortened abstract.
 summary: We propose a large-scale Chinese passage retrieval dataset. We mainly try to improve the problems that exist in popular English dataset, such as false negatives and testing data leakage, which have been proved to hinder the evaluation of neural retrieval models based on pre-trained language models. In addition, we select and provide two out-of-domain evaluation sets and a Chinese-English cross-lingual retrieval set to facilitate the evaluation of corresponding subtasks. Experiments and analyses of baselines show that passage retrieval is still challenging, e.g., weak domain generalization, factual consistency, grammatical consistency, etc. are still challenging for the recent neural retrieval models.
 
-tags: []
+tags: [Open-domain Question Answering]
 
 # Display this page in the Featured widget?
-featured: true
+# featured: true
 
 # Custom links (uncomment lines below)
 # links:
@@ -61,18 +61,18 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ""
-  preview_only: false
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#   focal_point: ""
+#   preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- Open-domain Question Answering
+# projects:
+# - Open-domain Question Answering
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
