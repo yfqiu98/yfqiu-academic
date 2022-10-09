@@ -29,7 +29,6 @@ experience:
     location: Edinburgh, Cambridge, UK
     date_start: '2022-10-01'
     date_end: ''
-    # description: ''
   
   - title: Research Intern in Natural Language Processing
     company: Baidu, Inc.
@@ -38,7 +37,6 @@ experience:
     location: Beijing, China
     date_start: '2020-09-01'
     date_end: '2021-08-31'
-    # description: 
 
   - title: MSc in Cognitive Science
     company: University of Edinburgh
@@ -47,7 +45,6 @@ experience:
     location: Edinburgh, UK
     date_start: '2020-09-01'
     date_end: '2021-08-31'
-    # description: 
   
   - title: BSc in Computer Science
     company: University of Edinburgh
@@ -56,8 +53,7 @@ experience:
     location: Zhuhai, China
     date_start: '2016-09-01'
     date_end: '2020-08-31'
-    # description: 
 
 design:
-  columns: '2'
+  columns: '4'
 ---
