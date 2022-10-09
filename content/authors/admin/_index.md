@@ -43,13 +43,13 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '/#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
+# - icon: envelope
+#   icon_pack: fas
+#   link: '/#contact'
+# - icon: twitter
+#   icon_pack: fab
+#   link: https://twitter.com/GeorgeCushen
+# - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
   link: https://scholar.google.com/citations?hl=en&user=OA6GaMwAAAAJ
 - icon: github
@@ -84,4 +84,4 @@ I pursue my doctoral studies at the [Institute of Language, Cognition and Comput
 
 Prior to starting my PhD, I spent time at [Baidu NLP](https://nlp.baidu.com/) as a Research Intern where I worked on Open-domain Question Answering and Dense Retrieval. I obtained my MSc from University of Edinburgh and worked on text summarization and structured prediction.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
