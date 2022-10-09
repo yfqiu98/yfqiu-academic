@@ -46,8 +46,8 @@ tags: [Summarization]
 #   url: http://example.org
 
 # url_pdf: 'https://arxiv.org/abs/2203.10232'
-url_pdf: 'example.pdf'
-url_code: 'https://github.com/baidu/DuReader/tree/master/DuReader-Retrieval'
+url_pdf: 'hiergnn.pdf'
+url_code: 'https://github.com/yfqiu-nlp/hiergnn'
 # url_dataset: 'https://github.com/baidu/DuReader/tree/master/DuReader-Retrieval'
 url_poster: ''
 url_project: ''
