@@ -45,13 +45,13 @@ education:
 social:
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
-  link: [https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ](https://scholar.google.com/citations?hl=en&user=OA6GaMwAAAAJ)
+  link: (https://scholar.google.com/citations?hl=en&user=OA6GaMwAAAAJ)
 - icon: github
   icon_pack: fab
-  link: [https://github.com/gcushen](https://github.com/yfqiu98)
+  link: (https://github.com/yfqiu98)
 - icon: linkedin
   icon_pack: fab
-  link: [https://www.linkedin.com/](https://www.linkedin.com/in/yfqiu/)
+  link: (https://www.linkedin.com/in/yfqiu/)
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
