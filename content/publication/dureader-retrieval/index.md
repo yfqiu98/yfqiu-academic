@@ -19,7 +19,7 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2022-12-09T00:00:00Z"
+date: "2022-12-09"
 # doi: ""
 
 # Schedule page publish date (NOT publication's date).
