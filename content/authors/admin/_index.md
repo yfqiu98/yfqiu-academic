@@ -67,7 +67,7 @@ social:
   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "yfqiu"at"ed.ac.uk"
+email: "yfqiu\"at\"ed.ac.uk"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
