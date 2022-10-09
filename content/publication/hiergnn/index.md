@@ -1,18 +1,13 @@
 ---
-title: "DuReader-retrieval: A Large-scale Chinese Benchmark for Passage Retrieval from Web Search Engine"
+title: "Abstractive Summarization Guided by Latent Hierarchical Document Structure
+"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Hongyu Li
-- Yingqi Qu
-- Ying Chen
-- Qiaoqiao She
-- Jing Liu
-- Hua Wu
-- Haifeng Wang
+- Shay Cohen
 
 # Author notes (optional)
 # author_notes:
@@ -72,7 +67,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-- Open-domain Question Answering
+- Summarization
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
