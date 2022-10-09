@@ -35,8 +35,8 @@ experience:
     company_url: ''
     # company_logo: org-baidu
     location: Beijing, China
-    date_start: '2020-09-01'
-    date_end: '2021-08-31'
+    date_start: '2021-11-01'
+    date_end: '2022-08-31'
 
   - title: MSc in Cognitive Science
     company: University of Edinburgh
