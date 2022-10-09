@@ -19,7 +19,7 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2022"
+date: "2022-12-09T00:00:00Z"
 # doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -82,7 +82,7 @@ url_video: ''
 # slides: example
 ---
 
-{{% callout note %}}
+<!-- {{% callout note %}}
 Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
 
@@ -90,4 +90,4 @@ Click the *Cite* button above to demo the feature to enable visitors to import p
 Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}}
 
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). -->
