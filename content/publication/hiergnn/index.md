@@ -30,10 +30,11 @@ publication_types: ["1"]
 publication: In *The 2022 Conference on Empirical Methods in Natural Language Processing*
 publication_short: In *EMNLP 2022*
 
-abstract: In this paper, we present DuReader-retrieval, a large-scale Chinese dataset for passage retrieval. DuReader-retrieval contains more than 90K queries and over 8M unique passages from Baidu search. To ensure the quality of our benchmark and address the shortcomings in other existing datasets, we (1) reduce the false negatives in development and testing sets by pooling the results from multiple retrievers with human annotations, (2) and remove the training queries that are semantically similar to the development and testing queries. Additionally, we provide two out-of-domain testing sets for cross-domain evaluation, as well as a cross-lingual set that has been manually translated for cross-lingual retrieval. The experiments demonstrate that DuReader-retrieval is challenging and there is still plenty of room for improvement, e.g. salient phrase and syntax mismatch between query and paragraph. These experimental results show that the dense retriever does not generalize well across domains, and cross-lingual retrieval is essentially challenging. DuReader-retrieval is publicly available.
+abstract: 
+Sequential abstractive neural summarizers often do not use the underlying structure in the input article or dependencies between the input sentences. This structure is essential to integrate and consolidate information from different parts of the text. To address this shortcoming, we propose a hierarchy-aware graph neural network (HierGNN) that captures such dependencies through three main steps, 1) learning a hierarchical document structure through a latent structure tree learned by a \emph{sparse} matrix-tree computation; 2) propagating sentence information over this structure using a novel message-passing node propagation mechanism to identify salient information; 3) using graph-level attention to concentrate the decoder on salient information. Experiments confirm HierGNN improves strong sequence models such as BART, with a 0.55 and 0.75 margin in average ROUGE-1/2/L for CNN/DM and XSum. Further human evaluation demonstrates that our model summaries are more relevant and less redundant than the baseline model, into which HierGNN is incorporated. We also find HierGNN synthesizes summaries by fusing multiple source sentences more, rather than compressing a single source sentence, and that it processes long inputs more effectively.
 
-# Summary. An optional shortened abstract.
-summary: We propose a large-scale Chinese passage retrieval dataset. We mainly try to improve the problems that exist in popular English dataset, such as false negatives and testing data leakage, which have been proved to hinder the evaluation of neural retrieval models based on pre-trained language models. In addition, we select and provide two out-of-domain evaluation sets and a Chinese-English cross-lingual retrieval set to facilitate the evaluation of corresponding subtasks. Experiments and analyses of baselines show that passage retrieval is still challenging, e.g., weak domain generalization, factual consistency, grammatical consistency, etc. are still challenging for the recent neural retrieval models.
+# # Summary. An optional shortened abstract.
+# summary: We propose a novel architecture
 
 tags: [Summarization]
 
@@ -77,7 +78,7 @@ url_video: ''
 # slides: example
 ---
 
-{{% callout note %}}
+<!-- {{% callout note %}}
 Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
 
@@ -85,4 +86,4 @@ Click the *Cite* button above to demo the feature to enable visitors to import p
 Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}}
 
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). -->
