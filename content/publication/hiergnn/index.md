@@ -14,7 +14,7 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2022-12-09T00:00:00Z"
+date: "2022"
 # doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -45,7 +45,8 @@ tags: [Summarization]
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/abs/2203.10232'
+# url_pdf: 'https://arxiv.org/abs/2203.10232'
+url_pdf: 'example.pdf'
 url_code: 'https://github.com/baidu/DuReader/tree/master/DuReader-Retrieval'
 # url_dataset: 'https://github.com/baidu/DuReader/tree/master/DuReader-Retrieval'
 url_poster: ''
