@@ -26,7 +26,7 @@ experience:
     company: Univeristy of Edinburgh/Cambridge
     company_url: ''
     # company_logo: org-edin
-    location: Edinburgh, Cambridge, UK
+    location: Edinburgh/Cambridge, UK
     date_start: '2022-10-01'
     date_end: ''
   
