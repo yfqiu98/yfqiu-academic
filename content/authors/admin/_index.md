@@ -74,7 +74,7 @@ highlight_name: true
 ---
 The vision of my research is to understand the underlying mechanism of human intelligence from both the neural and cogintive perspectives, and finally approach the grand goal of building Artificial General Intelligence (AGI). More specifically, I research this broad question: "how can we teach the machine to acquire language ability?", also as known as Natural Language Processing (NLP).
 
-I recently work on the challenges of pretrained language model with three aspects:
+I recently work on the crosslingual language generation which challenges recent pretrained language models on three fundamental aspects:
 
 1. Systematic Generalization
 2. Few-shot Learning

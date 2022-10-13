@@ -47,7 +47,7 @@ experience:
     date_end: '2021-08-31'
   
   - title: BSc in Computer Science
-    company: University of Edinburgh
+    company: BNU-HKBU UIC
     company_url: ''
     # company_logo: org-uic
     location: Zhuhai, China
