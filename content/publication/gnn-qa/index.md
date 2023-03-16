@@ -47,7 +47,7 @@ tags: [Question Answering]
 #   url: http://example.org
 
 # url_pdf: 'https://arxiv.org/abs/2203.10232'
-url_pdf: 'mlp_cw4.pdf'
+url_pdf: 'gnn-qa.pdf'
 url_code: 'https://github.com/yfqiu98/Multihop-GNN'
 # url_dataset: 'https://github.com/baidu/DuReader/tree/master/DuReader-Retrieval'
 url_poster: ''
