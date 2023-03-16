@@ -28,8 +28,8 @@ date: "2021-10-06T00:00:00Z"
 publication_types: ["4"]
 
 # Publication name and optional abbreviated publication name.
-publication: *Techical Report*
-publication_short: Tech Report
+publication: Techical Report
+publication_short: Techical Report
 
 abstract: Recently, graph neural networks (GNN) based multi-hop question answering (QA) has been studied extensively, as such graph representation can express rich dependencies in language explicitly. However, graph representation suffers from the loss of sequential information, and hardness in representing global semantic information with specific to downstream tasks. In this work, we propose the \textit{query-attention mechanism} to enhance the GNN-QA system by utilizing both global and local contextual information. We also explore injecting the positional information into the graph as to complement the sequential information. We experiment our idea in Entity Relational-Graph Convolutional Networks \cite{decao2019questionansweringRGCN} on part of WikiHop dataset. We identify the existence of \textit{position bias} in the dataset, and the experiment results with ablation study confirmed that our proposed modules improve baseline to achieve higher generalization accuracy with 1.43\%.
 
