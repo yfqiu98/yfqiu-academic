@@ -1,8 +1,8 @@
 {{ define "main" }}
 {{ $author := site.GetPage "authors/admin" }}
 {{ $avatar := $author.Resources.GetMatch "avatar*" }}
-{{ $experience := site.GetPage "home/experience" }}
-{{ $pubs := where site.RegularPages "Section" "publication" }}
+{{ $pubs := site.Data.selected_publications }}
+{{ $proExp := site.Data.professional_experience }}
 
 <main class="zsq-page">
   <aside class="zsq-sidebar">
@@ -47,6 +47,7 @@
   <div class="zsq-main">
     <nav class="zsq-nav">
       <a href="#about">Home</a>
+      <a href="#experience">Experience</a>
       <a href="#publications">Publications</a>
     </nav>
 
@@ -57,14 +58,37 @@
       </div>
     </section>
 
-    {{ with $author.Params.interests }}
-      <section id="interests" class="zsq-section">
-        <h2>Research Interests</h2>
-        <ul class="zsq-list">
+    {{ with $proExp }}
+      <section id="experience" class="zsq-section">
+        <h2>Professional Experience</h2>
+        <div class="zsq-exp">
           {{ range . }}
-            <li>{{ . }}</li>
+            <div class="zsq-exp-item">
+              <div class="zsq-exp-logo">
+                {{ if .logo }}
+                  <img src="{{ .logo }}" alt="{{ .company }}">
+                {{ else }}
+                  <div class="zsq-logo-placeholder">Logo</div>
+                {{ end }}
+              </div>
+              <div class="zsq-exp-body">
+                <div class="zsq-item-title">{{ .title }}</div>
+                <div class="zsq-item-meta">{{ .company }}{{ with .location }}, {{ . }}{{ end }}</div>
+                <div class="zsq-item-year">
+                  {{ with .date_start }}{{ time . | time.Format "Jan 2006" }}{{ end }}
+                  {{ if .date_end }}
+                    - {{ time .date_end | time.Format "Jan 2006" }}
+                  {{ else }}
+                    - Present
+                  {{ end }}
+                </div>
+                {{ with .summary }}
+                  <div class="zsq-item-summary">{{ . }}</div>
+                {{ end }}
+              </div>
+            </div>
           {{ end }}
-        </ul>
+        </div>
       </section>
     {{ end }}
 
@@ -85,56 +109,36 @@
       </section>
     {{ end }}
 
-    {{ with $experience.Params.experience }}
-      <section id="experience" class="zsq-section">
-        <h2>Experience</h2>
-        <ul class="zsq-list zsq-list-tight">
-          {{ range . }}
-            <li>
-              <div class="zsq-item-title">{{ .title }}</div>
-              <div class="zsq-item-meta">{{ .company }}{{ with .location }}, {{ . }}{{ end }}</div>
-              <div class="zsq-item-year">
-                {{ with .date_start }}{{ time . | time.Format "Jan 2006" }}{{ end }}
-                {{ if .date_end }}
-                  - {{ time .date_end | time.Format "Jan 2006" }}
-                {{ else }}
-                  - Present
-                {{ end }}
-              </div>
-            </li>
-          {{ end }}
-        </ul>
-      </section>
-    {{ end }}
-
     <section id="publications" class="zsq-section">
       <h2>Selected Publications</h2>
       <div class="zsq-pubs">
-        {{ range sort $pubs "Date" "desc" }}
+        {{ range $pubs }}
           <div class="zsq-pub">
-            <div class="zsq-pub-title">{{ .Title }}</div>
-            {{ with .Params.authors }}
-              <div class="zsq-pub-authors">
-                {{ range $index, $authorName := . }}
-                  {{ if gt $index 0 }}, {{ end }}
-                  {{ if eq $authorName "admin" }}
-                    {{ $author.Title }}
-                  {{ else }}
-                    {{ $authorName }}
-                  {{ end }}
-                {{ end }}
-              </div>
-            {{ end }}
-            {{ with (or .Params.publication_short .Params.publication) }}
-              <div class="zsq-pub-venue">{{ . }}</div>
-            {{ end }}
-            <div class="zsq-pub-links">
-              {{ with .Params.url_pdf }}<a href="{{ . }}" rel="noopener">paper</a>{{ end }}
-              {{ with .Params.url_code }}<a href="{{ . }}" rel="noopener">code</a>{{ end }}
-              {{ with .Params.url_dataset }}<a href="{{ . }}" rel="noopener">data</a>{{ end }}
-              {{ with .Params.url_project }}<a href="{{ . }}" rel="noopener">project</a>{{ end }}
-              {{ with .Params.url_slides }}<a href="{{ . }}" rel="noopener">slides</a>{{ end }}
-              {{ with .Params.url_video }}<a href="{{ . }}" rel="noopener">video</a>{{ end }}
+            <div class="zsq-pub-figure">
+              {{ if .figure }}
+                <img src="{{ .figure }}" alt="{{ .title }}">
+              {{ else }}
+                <div class="zsq-figure-placeholder">Figure</div>
+              {{ end }}
+            </div>
+            <div class="zsq-pub-body">
+              <div class="zsq-pub-title">{{ .title }}</div>
+              {{ with .authors }}
+                <div class="zsq-pub-authors">{{ . }}</div>
+              {{ end }}
+              {{ with .venue }}
+                <div class="zsq-pub-venue">{{ . }}</div>
+              {{ end }}
+              {{ with .links }}
+                <div class="zsq-pub-links">
+                  {{ with .paper }}<a href="{{ . }}" rel="noopener">paper</a>{{ end }}
+                  {{ with .code }}<a href="{{ . }}" rel="noopener">code</a>{{ end }}
+                  {{ with .data }}<a href="{{ . }}" rel="noopener">data</a>{{ end }}
+                  {{ with .project }}<a href="{{ . }}" rel="noopener">project</a>{{ end }}
+                  {{ with .slides }}<a href="{{ . }}" rel="noopener">slides</a>{{ end }}
+                  {{ with .video }}<a href="{{ . }}" rel="noopener">video</a>{{ end }}
+                </div>
+              {{ end }}
             </div>
           </div>
         {{ end }}

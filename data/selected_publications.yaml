@@ -1,0 +1,59 @@
+- title: Self-Improving World Modelling with Latent Actions
+  authors: Yifu Qiu, Zheng Zhao, Waylon Li, Yftah Ziser, Anna Korhonen, Shay Cohen, Edoardo Ponti
+  venue: Under Review, ICML 2026
+  figure: ""
+  links: {}
+
+- title: Unified Vision-Language Modeling via Concept Space Alignment
+  authors: Yifu Qiu, Paul-Ambroise Duquenne, Holger Schwenk
+  venue: ICLR 2026
+  figure: ""
+  links: {}
+
+- title: Bootstrapping Action-Grounded Visual Dynamics in Unified Vision-Language Models
+  authors: Yifu Qiu, Yftah Ziser, Anna Korhonen, Shay Cohen, Edoardo Ponti
+  venue: Under Review, ACL 2026
+  figure: ""
+  links: {}
+
+- title: Eliciting In-context Retrieval and Reasoning for Long-Context Language Models
+  authors: Yifu Qiu, Varun Embar, Shay Cohen, Yizhe Zhang, Navdeep Jaitly, Benjamin Han
+  venue: ACL 2025
+  figure: ""
+  links: {}
+
+- title: Spectral Editing of Activations for Large Language Model Alignment
+  authors: Yifu Qiu, Zheng Zhao, Anna Korhonen, Edoardo Ponti, Shay Cohen
+  venue: NeurIPS 2024
+  figure: ""
+  links: {}
+
+- title: Are Large Language Models Temporally Grounded?
+  authors: Yifu Qiu, Zheng Zhao, Anna Korhonen, Edoardo Ponti, Shay Cohen
+  venue: NAACL 2024
+  figure: ""
+  links: {}
+
+- title: Think While You Write: Hypothesis Verification Promotes Faithful Knowledge-to-text Generation
+  authors: Yifu Qiu, Varun Embar, Shay Cohen, Benjamin Han
+  venue: NAACL 2024
+  figure: ""
+  links: {}
+
+- title: Detecting and Mitigating Hallucinations in Multilingual Summarisation
+  authors: Yifu Qiu, Anna Korhonen, Edoardo Ponti, Shay Cohen
+  venue: EMNLP 2023
+  figure: ""
+  links: {}
+
+- title: Abstractive Summarization Guided by Latent Hierarchical Document Structure
+  authors: Yifu Qiu, Shay Cohen
+  venue: EMNLP 2022
+  figure: ""
+  links: {}
+
+- title: DuReader-Retrieval: A Large-scale Chinese Benchmark for Dense Information Retrieval from Real-World Applications
+  authors: Yifu Qiu, Hongyu Li, Yingqi Qu, Ying Chen, Qiaoqiao She, Jing Liu, Hua Wu, Haifeng Wang
+  venue: EMNLP 2022
+  figure: ""
+  links: {}
