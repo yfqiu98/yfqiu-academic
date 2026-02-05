@@ -78,7 +78,7 @@ highlight_name: true
 ---
 I am a final-year PhD researcher in Natural Language Processing at the University of Edinburgh and the University of Cambridge through the [ELLIS PhD Program](https://ellis.eu/research/phd-postdoc), advised by [Shay Cohen](https://homepages.inf.ed.ac.uk/scohen/), [Anna Korhonen](https://sites.google.com/site/annakorhonen/), and [Edoardo Ponti](https://ducdauge.github.io/). I am a recipient of the [Apple Scholars in AIML PhD Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2023), recognizing emerging leaders in AI/ML research, and a member of the ELLIS PhD Program, a pan-European network for excellence in artificial intelligence.
 
-My research investigates whether large foundation models (e.g., LLM and VLM) develop a **latent world models** across modalities such as text, vision, and speech. Latent world modelling refers to a model’s latent understanding of the environment and agent dynamics, thus enabling reasoning and planning without an external, specialised world model. Specifically, my interest spans:
+My research investigates whether large foundation models (e.g., LLM and VLM) develop a **latent world models** across modalities such as text, vision, and speech. Latent world modelling refers to a model’s intrinsic understanding of the environment and agent dynamics, thus enabling reasoning and planning without an external, specialised world model. Specifically, my interest spans:
 
 1. **World modelling as an emergent capability** — assessing whether foundation models can simulate future states and causal dynamics without hallucination.
 
