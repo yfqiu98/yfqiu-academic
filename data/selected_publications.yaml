@@ -9,7 +9,8 @@
   authors: Yifu Qiu, Paul-Ambroise Duquenne, Holger Schwenk
   venue: ICLR 2026
   figure: ""
-  links: {}
+  links: 
+    paper: https://openreview.net/forum?id=4LiX5ddGcU
 
 - title: Bootstrapping Action-Grounded Visual Dynamics in Unified Vision-Language Models
   authors: Yifu Qiu, Yftah Ziser, Anna Korhonen, Shay Cohen, Edoardo Ponti
