@@ -1,37 +1,34 @@
-- role: Reviewer
-  venue: AISTATS
+- role: ICLR
+  venue: Reviewer
   years: 2025, 2026
 
-- role: Reviewer
-  venue: ICLR
-  years: 2025, 2026
-
-- role: Reviewer
-  venue: NeurIPS
+- role: NeurIPS
+  venue: Reviewer
   years: 2024, 2025
 
-- role: Reviewer
-  venue: ACL Rolling Review
-
-- role: Reviewer
-  venue: NAACL
-  years: 2024, 2025
-
-- role: Committee Member
-  venue: Workshop on the Scaling Behavior of Large Language Models @ EACL
-  years: 2024
-
-- role: Reviewer
-  venue: Language Resources and Evaluation
-
-- role: Reviewer
-  venue: ICML
+- role: ICML
+  venue: Reviewer
   years: 2026
 
-- role: Reviewer
-  venue: ACL
+- role: AISTATS
+  venue: Reviewer
   years: 2025, 2026
 
-- role: Reviewer
-  venue: EMNLP
+- role: ACL
+  venue: Reviewer
+  years: 2025, 2026
+
+- role: EMNLP
+  venue: Reviewer
   years: 2024, 2025
+
+- role: NAACL
+  venue: Reviewer
+  years: 2024, 2025
+
+- role: Workshop on the Scaling Behavior of Large Language Models @ EACL
+  venue: Committee Member
+  years: 2024
+
+- role: Journal of Language Resources and Evaluation
+  venue: Reviewer

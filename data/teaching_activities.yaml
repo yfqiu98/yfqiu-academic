@@ -1,11 +1,17 @@
-- role: Teaching Assistant
-  venue: Accelerated Natural Language Processing, University of Edinburgh
-  years: 2023
+- role: Advanced Topic of Natural Language Processing
+  venue: Teaching Assistant, University of Edinburgh
+  years: 2024
+  links:
+    paper: https://opencourse.inf.ed.ac.uk/atnlp
 
-- role: Teaching Assistant
-  venue: Natural Language Understanding, Generation and Machine Translation, University of Edinburgh
+- role: Natural Language Understanding, Generation and Machine Translation
+  venue: Teaching Assistant, University of Edinburgh
   years: 2024
 
-- role: Tutor
-  venue: Machine Learning Practical (Deep Learning), University of Edinburgh
+- role: Accelerated Natural Language Processing
+  venue: Teaching Assistant, University of Edinburgh
+  years: 2023
+
+- role: Machine Learning Practical (Deep Learning)
+  venue: Tutor, University of Edinburgh
   years: 2023, 2024
