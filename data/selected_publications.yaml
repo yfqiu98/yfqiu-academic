@@ -2,6 +2,7 @@
   authors: Yifu Qiu, Zheng Zhao, Waylon Li, Yftah Ziser, Anna Korhonen, Shay Cohen, Edoardo Ponti
   venue: Under Review
   figure: /uploads/publication-figures/self-improving-world-modelling-with-latent-actions.gif
+  tags: [Latent-World-Model]
   links:
     paper: https://github.com/yfqiu-nlp/swirl
 
@@ -9,13 +10,23 @@
   authors: Yifu Qiu, Paul-Ambroise Duquenne, Holger Schwenk
   venue: ICLR 2026
   figure: /uploads/publication-figures/unified-vision-language-mdoelling.png
+  tags: [Latent-World-Model]
   links:
     paper: https://openreview.net/forum?id=4LiX5ddGcU
+
+- title: Lost in Space? Vision-Language Models Struggle with Relative Camera Pose Estimation
+  authors: Ken Deng, Yifu Qiu, Yoni Kasten, Shay B. Cohen, Yftah Ziser
+  venue: Under Review
+  tags: [Language-Grounding]
+  figure: /uploads/publication-figures/lost-in-space-vision-language-models-struggle-with-relative-camera-pose-estimation.png
+  links:
+    paper: https://arxiv.org/abs/2601.22228
 
 - title: Bootstrapping Action-Grounded Visual Dynamics in Unified Vision-Language Models
   authors: Yifu Qiu, Yftah Ziser, Anna Korhonen, Shay Cohen, Edoardo Ponti
   venue: Under Review
   figure: /uploads/publication-figures/boostrapping-world-model.png
+  tags: [Latent-World-Model]
   links:
     paper: https://arxiv.org/abs/2506.06006
 
@@ -23,6 +34,7 @@
   authors: Yifu Qiu, Varun Embar, Shay Cohen, Yizhe Zhang, Navdeep Jaitly, Benjamin Han
   venue: ACL 2025
   figure: /uploads/publication-figures/in-context-retrieval-and-reasoning.png
+  tags: [Hallucination, RAG]
   links:
     paper: https://aclanthology.org/2025.findings-acl.165/
 
@@ -30,6 +42,7 @@
   authors: Yifu Qiu, Zheng Zhao, Anna Korhonen, Edoardo Ponti, Shay Cohen
   venue: NeurIPS 2024
   figure: /uploads/publication-figures/spectral-editing-of-activations.png
+  tags: [Language-Grounding, Hallucination]
   links:
     paper: https://neurips.cc/virtual/2024/poster/93529
 
@@ -37,6 +50,7 @@
   authors: Yifu Qiu, Zheng Zhao, Anna Korhonen, Edoardo Ponti, Shay Cohen
   venue: NAACL 2024
   figure: /uploads/publication-figures/are-large-language-model-temporall-grounded.png
+  tags: [Language-Grounding]
   links:
     paper: https://aclanthology.org/2024.naacl-long.391/
 
@@ -44,6 +58,7 @@
   authors: Yifu Qiu, Varun Embar, Shay Cohen, Benjamin Han
   venue: NAACL 2024
   figure: /uploads/publication-figures/think-while-you-write.png
+  tags: [Hallucination]
   links:
     paper: https://machinelearning.apple.com/research/write-hypothesis
 
@@ -51,19 +66,21 @@
   authors: Yifu Qiu, Anna Korhonen, Edoardo Ponti, Shay Cohen
   venue: EMNLP 2023
   figure: /uploads/publication-figures/detecting-and-mitigating-hallucination-in-multilingual-summarisation.png
+  tags: [Hallucination]
   links:
     paper: https://aclanthology.org/2023.emnlp-main.551/
 
-- title: Abstractive Summarization Guided by Latent Hierarchical Document Structure
-  authors: Yifu Qiu, Shay Cohen
-  venue: EMNLP 2022
-  figure: /uploads/publication-figures/abstractive-summarization-guided-by-latent-structure.png
-  links:
-    paper: https://aclanthology.org/2022.emnlp-main.355/
+# - title: Abstractive Summarization Guided by Latent Hierarchical Document Structure
+#   authors: Yifu Qiu, Shay Cohen
+#   venue: EMNLP 2022
+#   figure: /uploads/publication-figures/abstractive-summarization-guided-by-latent-structure.png
+#   links:
+#     paper: https://aclanthology.org/2022.emnlp-main.355/
 
 - title: "DuReader-Retrieval: A Large-scale Chinese Benchmark for Dense Information Retrieval from Real-World Applications"
   authors: Yifu Qiu, Hongyu Li, Yingqi Qu, Ying Chen, Qiaoqiao She, Jing Liu, Hua Wu, Haifeng Wang
   venue: EMNLP 2022
   figure: /uploads/publication-figures/dureader-retrieval.png
+  tags: [RAG]
   links:
     paper: https://aclanthology.org/2022.emnlp-main.357/

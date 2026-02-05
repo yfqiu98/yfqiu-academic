@@ -129,6 +129,13 @@
               {{ with .venue }}
                 <div class="zsq-pub-venue">{{ . }}</div>
               {{ end }}
+              {{ with .tags }}
+                <div class="zsq-pub-tags">
+                  {{ range . }}
+                    <span class="zsq-tag">{{ . }}</span>
+                  {{ end }}
+                </div>
+              {{ end }}
               {{ with .links }}
                 <div class="zsq-pub-links">
                   {{ with .paper }}<a href="{{ . }}" rel="noopener">paper</a>{{ end }}

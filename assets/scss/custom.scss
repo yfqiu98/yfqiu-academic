@@ -244,6 +244,23 @@ footer,
   font-size: 14px;
 }
 
+.zsq-pub-tags {
+  margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.zsq-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  border: 1px solid var(--zsq-border);
+  color: var(--zsq-muted);
+  background: #fafafa;
+}
+
 .zsq-pub-links {
   margin-top: 4px;
   font-size: 14px;
