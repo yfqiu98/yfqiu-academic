@@ -14,7 +14,7 @@
   links:
     paper: https://openreview.net/forum?id=4LiX5ddGcU
 
-- title: Lost in Space? Vision-Language Models Struggle with Relative Camera Pose Estimation
+- title: "Lost in Space? Vision-Language Models Struggle with Relative Camera Pose Estimation"
   authors: Ken Deng, Yifu Qiu, Yoni Kasten, Shay B. Cohen, Yftah Ziser
   venue: Under Review
   tags: [Language-Grounding]
