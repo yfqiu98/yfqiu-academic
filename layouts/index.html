@@ -49,6 +49,9 @@
       <a href="#about">Home</a>
       <a href="#experience">Experience</a>
       <a href="#publications">Publications</a>
+      <a href="#activities">Activities</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#service">Service</a>
       <button class="zsq-mode-toggle" type="button" aria-label="Toggle night mode">Night</button>
     </nav>
     <div class="zsq-nav-accent"></div>
@@ -204,6 +207,28 @@
     {{ with site.Data.teaching_activities }}
       <section id="teaching" class="zsq-section">
         <h2>Teaching Activities</h2>
+        <div class="zsq-service">
+          {{ range . }}
+            <div class="zsq-service-item">
+              <div class="zsq-item-title">{{ .role }}</div>
+              {{ with .venue }}
+                <div class="zsq-item-meta">{{ . }}</div>
+              {{ end }}
+              {{ with .years }}
+                <div class="zsq-item-year">{{ . }}</div>
+              {{ end }}
+              {{ with .details }}
+                <div class="zsq-item-summary">{{ . }}</div>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+
+    {{ with site.Data.activities }}
+      <section id="activities" class="zsq-section">
+        <h2>Activities</h2>
         <div class="zsq-service">
           {{ range . }}
             <div class="zsq-service-item">
