@@ -2,58 +2,58 @@
   authors: Yifu Qiu, Zheng Zhao, Waylon Li, Yftah Ziser, Anna Korhonen, Shay Cohen, Edoardo Ponti
   venue: Under Review, ICML 2026
   figure: ""
-  links: {}
+  links: {https://github.com/yfqiu-nlp/swirl}
 
 - title: Unified Vision-Language Modeling via Concept Space Alignment
   authors: Yifu Qiu, Paul-Ambroise Duquenne, Holger Schwenk
   venue: ICLR 2026
   figure: ""
-  links: {}
+  links: {swirl.gif: static/uploads/swirl.gif}
 
 - title: Bootstrapping Action-Grounded Visual Dynamics in Unified Vision-Language Models
   authors: Yifu Qiu, Yftah Ziser, Anna Korhonen, Shay Cohen, Edoardo Ponti
   venue: Under Review, ACL 2026
   figure: ""
-  links: {}
+  links: {https://arxiv.org/abs/2506.06006}
 
 - title: Eliciting In-context Retrieval and Reasoning for Long-Context Language Models
   authors: Yifu Qiu, Varun Embar, Shay Cohen, Yizhe Zhang, Navdeep Jaitly, Benjamin Han
   venue: ACL 2025
   figure: ""
-  links: {}
+  links: {https://aclanthology.org/2025.findings-acl.165/}
 
 - title: Spectral Editing of Activations for Large Language Model Alignment
   authors: Yifu Qiu, Zheng Zhao, Anna Korhonen, Edoardo Ponti, Shay Cohen
   venue: NeurIPS 2024
   figure: ""
-  links: {}
+  links: {https://neurips.cc/virtual/2024/poster/93529}
 
 - title: Are Large Language Models Temporally Grounded?
   authors: Yifu Qiu, Zheng Zhao, Anna Korhonen, Edoardo Ponti, Shay Cohen
   venue: NAACL 2024
   figure: ""
-  links: {}
+  links: {https://aclanthology.org/2024.naacl-long.391/}
 
 - title: Think While You Write: Hypothesis Verification Promotes Faithful Knowledge-to-text Generation
   authors: Yifu Qiu, Varun Embar, Shay Cohen, Benjamin Han
   venue: NAACL 2024
   figure: ""
-  links: {}
+  links: {https://machinelearning.apple.com/research/write-hypothesis}
 
 - title: Detecting and Mitigating Hallucinations in Multilingual Summarisation
   authors: Yifu Qiu, Anna Korhonen, Edoardo Ponti, Shay Cohen
   venue: EMNLP 2023
   figure: ""
-  links: {}
+  links: {https://aclanthology.org/2023.emnlp-main.551/}
 
 - title: Abstractive Summarization Guided by Latent Hierarchical Document Structure
   authors: Yifu Qiu, Shay Cohen
   venue: EMNLP 2022
   figure: ""
-  links: {}
+  links: {https://aclanthology.org/2022.emnlp-main.355/}
 
-- title: DuReader-Retrieval: A Large-scale Chinese Benchmark for Dense Information Retrieval from Real-World Applications
+- title: DuReader-Retrieval A Large-scale Chinese Benchmark for Dense Information Retrieval from Real-World Applications
   authors: Yifu Qiu, Hongyu Li, Yingqi Qu, Ying Chen, Qiaoqiao She, Jing Liu, Hua Wu, Haifeng Wang
   venue: EMNLP 2022
   figure: ""
-  links: {}
+  links: {https://aclanthology.org/2022.emnlp-main.357/}

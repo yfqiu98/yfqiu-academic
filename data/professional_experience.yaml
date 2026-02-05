@@ -12,7 +12,7 @@
   date_start: 2024-06-01
   date_end: 2024-09-30
   logo: /uploads/apple-logo.png
-  summary: Long-Context Reasoning and Inference Optimization.
+  summary: In-Context Retrieval and Reasoning.
 
 - title: Research Scientist Intern
   company: Apple AIML
@@ -20,7 +20,7 @@
   date_start: 2023-06-01
   date_end: 2023-09-30
   logo: /uploads/apple-logo.png
-  summary: Trustworthy Generation and Hallucination Mitigation.
+  summary: Trustworthy Decoding for Hallucination Mitigation.
 
 - title: Research Scientist Intern
   company: Baidu Inc. (NLP Department)
