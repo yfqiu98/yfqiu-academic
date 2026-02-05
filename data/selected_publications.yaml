@@ -10,7 +10,7 @@
   authors: Yifu Qiu, Paul-Ambroise Duquenne, Holger Schwenk
   venue: ICLR 2026
   figure: /uploads/publication-figures/unified-vision-language-mdoelling.png
-  tags: [Latent-World-Model]
+  tags: [Latent-World-Model, Language-Grounding]
   links:
     paper: https://openreview.net/forum?id=4LiX5ddGcU
 
@@ -45,7 +45,7 @@
   tags: [Safety]
   links:
     paper: https://aclanthology.org/2025.emnlp-main.1488/
-    
+
 - title: Spectral Editing of Activations for Large Language Model Alignment
   authors: Yifu Qiu, Zheng Zhao, Anna Korhonen, Edoardo Ponti, Shay Cohen
   venue: NeurIPS 2024

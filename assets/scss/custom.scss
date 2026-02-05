@@ -195,7 +195,11 @@ footer,
 }
 
 .zsq-news-text {
-  font-size: 15px;
+  font-size: 14px;
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .zsq-list li {

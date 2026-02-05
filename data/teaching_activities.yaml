@@ -1,6 +1,7 @@
 - role: Advanced Topic of Natural Language Processing
   venue: Teaching Assistant, University of Edinburgh
   years: 2024
+  details: Designed the post-training assignment for a tiny reasoning LLM.
   links:
     paper: https://opencourse.inf.ed.ac.uk/atnlp
 
