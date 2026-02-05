@@ -78,7 +78,7 @@ highlight_name: true
 ---
 I am a final-year PhD researcher in Natural Language Processing at the University of Edinburgh and the University of Cambridge through the ELLIS PhD Program, advised by Shay Cohen, Anna Korhonen, and Edoardo Ponti.
 
-My research investigates whether large foundation models (including LLMs and VLMs) develop a **latent world models**, which is a model’s latent understanding of the environment and agent dynamics, i.e., trajectories of states and actions. Specifically, my interest spans:
+My research investigates whether large foundation models develop a **latent world models** across modalities such as text, vision, and speech. Latent world modelling refers to a model’s latent understanding of the environment and agent dynamics, thus enabling reasoning and planning without an external, specialised world model. Specifically, my interest spans:
 
 1. **World modelling as an emergent capability** — assessing whether foundation models can simulate future states and causal dynamics without hallucination.
 
