@@ -61,7 +61,7 @@
   links:
     paper: https://aclanthology.org/2022.emnlp-main.355/
 
-- title: DuReader-Retrieval: A Large-scale Chinese Benchmark for Dense Information Retrieval from Real-World Applications
+- title: "DuReader-Retrieval: A Large-scale Chinese Benchmark for Dense Information Retrieval from Real-World Applications"
   authors: Yifu Qiu, Hongyu Li, Yingqi Qu, Ying Chen, Qiaoqiao She, Jing Liu, Hua Wu, Haifeng Wang
   venue: EMNLP 2022
   figure: ""
