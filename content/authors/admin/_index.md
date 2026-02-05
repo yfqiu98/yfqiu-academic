@@ -82,4 +82,3 @@ I have first-author publications in top venues including ICLR, NeurIPS, ACL, EMN
 
 My industrial research experience includes Meta FAIR, Apple AIML (Apple AIML PhD Fellowship), Nvidia Research, and Baidu NLP. I was selected for the ELLIS PhD program (highly competitive) and have led projects that advanced omnimodal concept modeling, in-context retrieval and reasoning, and faithful generation.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
