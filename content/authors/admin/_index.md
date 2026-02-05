@@ -88,4 +88,4 @@ My research investigates whether large foundation models (e.g., LLM and VLM) dev
 
 I have multiple first-author publications at leading AI venues, including **ICLR, NeurIPS, ACL, EMNLP, and NAACL**. My research is complemented by industry collaborations with **Meta FAIR, Apple AIML, NVIDIA Research, and Baidu NLP**, spanning both fundamental and applied foundation model research.
 
-**I am on the 2026 job market for industrial research scientist positions. I am actively looking for positions based in 🇨🇳/🇬🇧/🇨🇭/🇺🇸/🇪🇺.**
+**I am on the 2026 job market for industrial research scientist positions. I am actively looking for positions based in** 🇨🇳/🇬🇧/🇨🇭/🇺🇸/🇪🇺/🇸🇬.
