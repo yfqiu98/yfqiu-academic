@@ -70,7 +70,7 @@
           {{ range . }}
             <li>
               <span class="zsq-news-date">{{ time .date | time.Format "Jan 2006" }}</span>
-              <span class="zsq-news-text">{{ .text }}</span>
+              <span class="zsq-news-text">{{ .text | markdownify }}</span>
             </li>
           {{ end }}
         </ul>
