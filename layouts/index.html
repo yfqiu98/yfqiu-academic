@@ -1,0 +1,145 @@
+{{ define "main" }}
+{{ $author := site.GetPage "authors/admin" }}
+{{ $avatar := $author.Resources.GetMatch "avatar*" }}
+{{ $experience := site.GetPage "home/experience" }}
+{{ $pubs := where site.RegularPages "Section" "publication" }}
+
+<main class="zsq-page">
+  <aside class="zsq-sidebar">
+    {{ with $avatar }}
+      <img class="zsq-avatar" src="{{ .RelPermalink }}" alt="{{ $author.Title }}">
+    {{ end }}
+    <h1 class="zsq-name">{{ $author.Title }}</h1>
+    {{ with $author.Params.role }}
+      <div class="zsq-role">{{ . }}</div>
+    {{ end }}
+    {{ with $author.Params.organizations }}
+      <ul class="zsq-orgs">
+        {{ range . }}
+          <li>
+            {{ if .url }}
+              <a href="{{ .url }}" rel="noopener">{{ .name }}</a>
+            {{ else }}
+              {{ .name }}
+            {{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+    {{ with $author.Params.email }}
+      <div class="zsq-email">{{ . }}</div>
+    {{ end }}
+    {{ with $author.Params.social }}
+      <div class="zsq-socials">
+        {{ range . }}
+          <a class="zsq-social" href="{{ .link }}" rel="noopener">
+            {{ if eq .icon_pack "ai" }}
+              <i class="ai ai-{{ .icon }}"></i>
+            {{ else }}
+              <i class="{{ .icon_pack }} fa-{{ .icon }}"></i>
+            {{ end }}
+          </a>
+        {{ end }}
+      </div>
+    {{ end }}
+  </aside>
+
+  <div class="zsq-main">
+    <nav class="zsq-nav">
+      <a href="#about">Home</a>
+      <a href="#publications">Publications</a>
+    </nav>
+
+    <section id="about" class="zsq-section">
+      <h2>Biography</h2>
+      <div class="zsq-text">
+        {{ $author.Content }}
+      </div>
+    </section>
+
+    {{ with $author.Params.interests }}
+      <section id="interests" class="zsq-section">
+        <h2>Research Interests</h2>
+        <ul class="zsq-list">
+          {{ range . }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </section>
+    {{ end }}
+
+    {{ with $author.Params.education.courses }}
+      <section id="education" class="zsq-section">
+        <h2>Education</h2>
+        <ul class="zsq-list zsq-list-tight">
+          {{ range . }}
+            <li>
+              <div class="zsq-item-title">{{ .course }}</div>
+              <div class="zsq-item-meta">{{ .institution }}</div>
+              {{ with .year }}
+                <div class="zsq-item-year">{{ . }}</div>
+              {{ end }}
+            </li>
+          {{ end }}
+        </ul>
+      </section>
+    {{ end }}
+
+    {{ with $experience.Params.experience }}
+      <section id="experience" class="zsq-section">
+        <h2>Experience</h2>
+        <ul class="zsq-list zsq-list-tight">
+          {{ range . }}
+            <li>
+              <div class="zsq-item-title">{{ .title }}</div>
+              <div class="zsq-item-meta">{{ .company }}{{ with .location }}, {{ . }}{{ end }}</div>
+              <div class="zsq-item-year">
+                {{ with .date_start }}{{ time . | time.Format "Jan 2006" }}{{ end }}
+                {{ if .date_end }}
+                  - {{ time .date_end | time.Format "Jan 2006" }}
+                {{ else }}
+                  - Present
+                {{ end }}
+              </div>
+            </li>
+          {{ end }}
+        </ul>
+      </section>
+    {{ end }}
+
+    <section id="publications" class="zsq-section">
+      <h2>Selected Publications</h2>
+      <div class="zsq-pubs">
+        {{ range sort $pubs "Date" "desc" }}
+          <div class="zsq-pub">
+            <div class="zsq-pub-title">{{ .Title }}</div>
+            {{ with .Params.authors }}
+              <div class="zsq-pub-authors">
+                {{ range $index, $authorName := . }}
+                  {{ if gt $index 0 }}, {{ end }}
+                  {{ if eq $authorName "admin" }}
+                    {{ $author.Title }}
+                  {{ else }}
+                    {{ $authorName }}
+                  {{ end }}
+                {{ end }}
+              </div>
+            {{ end }}
+            {{ with (or .Params.publication_short .Params.publication) }}
+              <div class="zsq-pub-venue">{{ . }}</div>
+            {{ end }}
+            <div class="zsq-pub-links">
+              {{ with .Params.url_pdf }}<a href="{{ . }}" rel="noopener">paper</a>{{ end }}
+              {{ with .Params.url_code }}<a href="{{ . }}" rel="noopener">code</a>{{ end }}
+              {{ with .Params.url_dataset }}<a href="{{ . }}" rel="noopener">data</a>{{ end }}
+              {{ with .Params.url_project }}<a href="{{ . }}" rel="noopener">project</a>{{ end }}
+              {{ with .Params.url_slides }}<a href="{{ . }}" rel="noopener">slides</a>{{ end }}
+              {{ with .Params.url_video }}<a href="{{ . }}" rel="noopener">video</a>{{ end }}
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </section>
+  </div>
+</main>
+{{ end }}
