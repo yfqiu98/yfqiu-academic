@@ -49,7 +49,9 @@
       <a href="#about">Home</a>
       <a href="#experience">Experience</a>
       <a href="#publications">Publications</a>
+      <button class="zsq-mode-toggle" type="button" aria-label="Toggle night mode">Night</button>
     </nav>
+    <div class="zsq-nav-accent"></div>
 
     <section id="about" class="zsq-section">
       <h2>Biography</h2>
@@ -198,6 +200,79 @@
         })();
       </script>
     </section>
+
+    {{ with site.Data.teaching_activities }}
+      <section id="teaching" class="zsq-section">
+        <h2>Teaching Activities</h2>
+        <div class="zsq-service">
+          {{ range . }}
+            <div class="zsq-service-item">
+              <div class="zsq-item-title">{{ .role }}</div>
+              {{ with .venue }}
+                <div class="zsq-item-meta">{{ . }}</div>
+              {{ end }}
+              {{ with .years }}
+                <div class="zsq-item-year">{{ . }}</div>
+              {{ end }}
+              {{ with .details }}
+                <div class="zsq-item-summary">{{ . }}</div>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+
+    {{ with site.Data.academic_service }}
+      <section id="service" class="zsq-section">
+        <h2>Academic Service</h2>
+        <div class="zsq-service">
+          {{ range . }}
+            <div class="zsq-service-item">
+              <div class="zsq-item-title">{{ .role }}</div>
+              {{ with .venue }}
+                <div class="zsq-item-meta">{{ . }}</div>
+              {{ end }}
+              {{ with .years }}
+                <div class="zsq-item-year">{{ . }}</div>
+              {{ end }}
+              {{ with .details }}
+                <div class="zsq-item-summary">{{ . }}</div>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
   </div>
 </main>
+
+<script>
+  (function () {
+    var root = document.documentElement;
+    var toggle = document.querySelector(".zsq-mode-toggle");
+    if (!toggle) return;
+
+    function setMode(mode) {
+      if (mode === "dark") {
+        root.classList.add("zsq-dark");
+      } else {
+        root.classList.remove("zsq-dark");
+      }
+      localStorage.setItem("zsq-mode", mode);
+    }
+
+    var saved = localStorage.getItem("zsq-mode");
+    if (saved) {
+      setMode(saved);
+    } else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      setMode("dark");
+    }
+
+    toggle.addEventListener("click", function () {
+      var dark = root.classList.contains("zsq-dark");
+      setMode(dark ? "light" : "dark");
+    });
+  })();
+</script>
 {{ end }}

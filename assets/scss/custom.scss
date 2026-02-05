@@ -5,6 +5,17 @@
   --zsq-muted: #666;
   --zsq-link: #1a58d6;
   --zsq-border: #e5e5e5;
+  --zsq-bg: #ffffff;
+  --zsq-card: #fafafa;
+}
+
+.zsq-dark {
+  --zsq-text: #e8e8e8;
+  --zsq-muted: #b5b5b5;
+  --zsq-link: #6aa3ff;
+  --zsq-border: #2c2c2c;
+  --zsq-bg: #0f1115;
+  --zsq-card: #171a20;
 }
 
 * {
@@ -13,7 +24,7 @@
 
 html,
 body {
-  background: #ffffff;
+  background: var(--zsq-bg);
   color: var(--zsq-text);
   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
@@ -109,7 +120,30 @@ footer,
   justify-content: flex-end;
   gap: 18px;
   font-size: 15px;
-  margin-bottom: 24px;
+  margin-bottom: 8px;
+}
+
+.zsq-nav a {
+  color: var(--zsq-text);
+}
+
+.zsq-mode-toggle {
+  border: 1px solid var(--zsq-border);
+  background: var(--zsq-bg);
+  color: var(--zsq-text);
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+}
+
+.zsq-nav-accent {
+  height: 3px;
+  width: 100%;
+  background: var(--zsq-link);
+  border-radius: 999px;
+  margin-bottom: 20px;
 }
 
 .zsq-section {
@@ -185,7 +219,7 @@ footer,
   object-fit: contain;
   border: 1px solid var(--zsq-border);
   border-radius: 6px;
-  background: #fff;
+  background: var(--zsq-bg);
   padding: 6px;
 }
 
@@ -226,7 +260,7 @@ footer,
   aspect-ratio: 4 / 3;
   border: 1px dashed var(--zsq-border);
   border-radius: 8px;
-  background: #fafafa;
+  background: var(--zsq-card);
   color: var(--zsq-muted);
   display: flex;
   align-items: center;
@@ -258,7 +292,7 @@ footer,
   font-size: 12px;
   border: 1px solid var(--zsq-border);
   color: var(--zsq-muted);
-  background: #fafafa;
+  background: var(--zsq-card);
   cursor: pointer;
   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
 }
@@ -281,7 +315,7 @@ footer,
   border-radius: 999px;
   font-size: 13px;
   border: 1px solid var(--zsq-border);
-  background: #fff;
+  background: var(--zsq-bg);
   color: var(--zsq-muted);
   cursor: pointer;
   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
@@ -291,6 +325,12 @@ footer,
   color: #fff;
   background: var(--zsq-link);
   border-color: var(--zsq-link);
+}
+
+.zsq-service {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .zsq-pub-links {
