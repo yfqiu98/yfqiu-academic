@@ -76,7 +76,7 @@ email: "yifu.qiu\"at\"ed.ac.uk"
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-I am a final-year PhD researcher in Natural Language Processing at the University of Edinburgh and the University of Cambridge through the ELLIS PhD Program, advised by Shay Cohen, Anna Korhonen, and Edoardo Ponti.
+I am a final-year PhD researcher in Natural Language Processing at the University of Edinburgh and the University of Cambridge through the ELLIS PhD Program, advised by Shay Cohen, Anna Korhonen, and Edoardo Ponti. I am a recipient of the **Apple Scholars in AIML PhD Fellowship**, recognizing emerging leaders in AI/ML research, and **a member of the ELLIS PhD Program**, a pan-European network for excellence in artificial intelligence.
 
 My research investigates whether large foundation models develop a **latent world models** across modalities such as text, vision, and speech. Latent world modelling refers to a model’s latent understanding of the environment and agent dynamics, thus enabling reasoning and planning without an external, specialised world model. Specifically, my interest spans:
 
@@ -88,6 +88,4 @@ My research investigates whether large foundation models develop a **latent worl
 
 I have multiple first-author publications at leading AI venues, including **ICLR, NeurIPS, ACL, EMNLP, and NAACL**. My research is complemented by industry collaborations with **Meta FAIR, Apple AIML, NVIDIA Research, and Baidu NLP**, spanning both fundamental and applied foundation model research.
 
-I am a recipient of the **Apple Scholars in AIML PhD Fellowship**, recognizing emerging leaders in AI/ML research, and **a member of the ELLIS PhD Program**, a pan-European network for excellence in artificial intelligence.
-
-**I am on the 2026 job market for industrial research scientist positions.**
+**I am on the 2026 job market for industrial research scientist positions. I am actively looking for positions based in 🇨🇳/🇬🇧/🇨🇭/🇺🇸/🇪🇺.**
