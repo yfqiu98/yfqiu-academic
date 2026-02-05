@@ -63,6 +63,20 @@
       </div>
     </section>
 
+    {{ with site.Data.news }}
+      <section id="news" class="zsq-section">
+        <h2>News</h2>
+        <ul class="zsq-news">
+          {{ range . }}
+            <li>
+              <span class="zsq-news-date">{{ time .date | time.Format "Jan 2006" }}</span>
+              <span class="zsq-news-text">{{ .text }}</span>
+            </li>
+          {{ end }}
+        </ul>
+      </section>
+    {{ end }}
+
     {{ with $proExp }}
       <section id="experience" class="zsq-section">
         <h2>Professional Experience</h2>

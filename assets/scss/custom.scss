@@ -173,6 +173,31 @@ footer,
   margin: 0;
 }
 
+.zsq-news {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.zsq-news li {
+  display: grid;
+  grid-template-columns: 90px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+}
+
+.zsq-news-date {
+  font-size: 13px;
+  color: var(--zsq-muted);
+}
+
+.zsq-news-text {
+  font-size: 15px;
+}
+
 .zsq-list li {
   margin-bottom: 8px;
 }

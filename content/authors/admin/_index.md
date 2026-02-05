@@ -56,6 +56,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/yfqiu98
+- icon: x-twitter
+  icon_pack: fab
+  link: https://x.com/yifuqiu98
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/yfqiu/
@@ -68,7 +71,7 @@ social:
   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "yfqiu\"at\"ed.ac.uk"
+email: "yifu.qiu\"at\"ed.ac.uk"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true

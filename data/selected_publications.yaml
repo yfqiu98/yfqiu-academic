@@ -38,11 +38,19 @@
   links:
     paper: https://aclanthology.org/2025.findings-acl.165/
 
+- title: Iterative Multilingual Spectral Attribute Erasure
+  authors: Shun Shao, Yftah Ziser, Zheng Zhao, Yifu Qiu, Shay Cohen, Anna Korhonen
+  venue: EMNLP 2025
+  figure: /uploads/publication-figures/iterative-multilingual-spectral-attribute-erasure.png
+  tags: [Safety]
+  links:
+    paper: https://aclanthology.org/2025.emnlp-main.1488/
+    
 - title: Spectral Editing of Activations for Large Language Model Alignment
   authors: Yifu Qiu, Zheng Zhao, Anna Korhonen, Edoardo Ponti, Shay Cohen
   venue: NeurIPS 2024
   figure: /uploads/publication-figures/spectral-editing-of-activations.png
-  tags: [Language-Grounding, Hallucination]
+  tags: [Language-Grounding, Hallucination, Safety]
   links:
     paper: https://neurips.cc/virtual/2024/poster/93529
 
@@ -70,12 +78,12 @@
   links:
     paper: https://aclanthology.org/2023.emnlp-main.551/
 
-# - title: Abstractive Summarization Guided by Latent Hierarchical Document Structure
-#   authors: Yifu Qiu, Shay Cohen
-#   venue: EMNLP 2022
-#   figure: /uploads/publication-figures/abstractive-summarization-guided-by-latent-structure.png
-#   links:
-#     paper: https://aclanthology.org/2022.emnlp-main.355/
+- title: Abstractive Summarization Guided by Latent Hierarchical Document Structure
+  authors: Yifu Qiu, Shay Cohen
+  venue: EMNLP 2022
+  figure: /uploads/publication-figures/abstractive-summarization-guided-by-latent-structure.png
+  links:
+    paper: https://aclanthology.org/2022.emnlp-main.355/
 
 - title: "DuReader-Retrieval: A Large-scale Chinese Benchmark for Dense Information Retrieval from Real-World Applications"
   authors: Yifu Qiu, Hongyu Li, Yingqi Qu, Ying Chen, Qiaoqiao She, Jing Liu, Hua Wu, Haifeng Wang
