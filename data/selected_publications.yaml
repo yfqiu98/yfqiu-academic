@@ -17,7 +17,7 @@
 - title: "Lost in Space? Vision-Language Models Struggle with Relative Camera Pose Estimation"
   authors: Ken Deng, Yifu Qiu, Yoni Kasten, Shay B. Cohen, Yftah Ziser
   venue: Under Review
-  tags: [Language-Grounding]
+  tags: [Latent-World-Model, Language-Grounding]
   figure: /uploads/publication-figures/lost-in-space-vision-language-models-struggle-with-relative-camera-pose-estimation.png
   links:
     paper: https://arxiv.org/abs/2601.22228

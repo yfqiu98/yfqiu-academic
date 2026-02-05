@@ -259,6 +259,38 @@ footer,
   border: 1px solid var(--zsq-border);
   color: var(--zsq-muted);
   background: #fafafa;
+  cursor: pointer;
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+}
+
+.zsq-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.zsq-filter-label {
+  font-size: 14px;
+  color: var(--zsq-muted);
+}
+
+.zsq-filter-btn {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  border: 1px solid var(--zsq-border);
+  background: #fff;
+  color: var(--zsq-muted);
+  cursor: pointer;
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+}
+
+.zsq-filter-btn.is-active {
+  color: #fff;
+  background: var(--zsq-link);
+  border-color: var(--zsq-link);
 }
 
 .zsq-pub-links {

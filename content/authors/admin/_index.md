@@ -17,13 +17,14 @@ organizations:
   url: https://www.cam.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Machine Learning, Natural Language Processing, Cognitive Science.
+bio: PhD researcher in foundation models, alignment, and hallucination mitigation.
 
 # Interests to show in About widget
 interests:
-- Summarization
-- Multilingual NLP
-- Open-domain Question Answering
+- Foundation model post-training
+- Hallucination detection and mitigation
+- Multimodal reasoning
+- World models and grounding
 
 # Education to show in About widget
 education:
@@ -60,7 +61,7 @@ social:
   link: https://www.linkedin.com/in/yfqiu/
 
 # Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
+# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
 # and uncomment the lines below.
 - icon: cv
   icon_pack: ai
@@ -72,16 +73,10 @@ email: "yfqiu\"at\"ed.ac.uk"
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-The vision of my research is to understand the underlying mechanism of human intelligence from both the neural and cogintive perspectives, and finally approach the grand goal of building Artificial General Intelligence (AGI). More specifically, I research this broad question: "how can we teach the machine to acquire language ability?", also as known as Natural Language Processing (NLP).
+I am a final-year PhD researcher in Natural Language Processing at the University of Edinburgh and University of Cambridge (ELLIS program), advised by Shay Cohen, Anna Korhonen, and Edoardo Ponti. My work focuses on post-training and alignment of foundation models, with a particular emphasis on hallucination detection and mitigation, long-context reasoning, and world-model grounding across text, vision, and speech.
 
-I recently work on the crosslingual language generation which challenges recent pretrained language models on three fundamental aspects:
+I have first-author publications in top venues including ICLR, NeurIPS, ACL, EMNLP, and NAACL, and my research has delivered measurable gains on real tasks such as long-context retrieval and multilingual generation. I build scalable training and inference pipelines for large models (7B+ parameters) and design alignment methods spanning SFT, RL, and decoding-time verification.
 
-1. Systematic Generalization
-2. Few-shot Learning
-3. Learning for Relational Knowledge (e.g., physical-world knowledge)
-
-I pursue my doctoral studies at the [Institute of Language, Cognition and Computation at University of Edinburgh](https://web.inf.ed.ac.uk/ilcc) and [Language Technology Lab at University of Cambridge](https://ltl.mmll.cam.ac.uk/), and I am fortunated to be advised by [Shay Cohen](https://homepages.inf.ed.ac.uk/scohen/), [Anna Korhonen](https://sites.google.com/site/annakorhonen/) and [Edoardo Ponti](https://ducdauge.github.io/) under [ELLIS PhD & PostDoc program](https://ellis.eu/), a pan-European network of excellence in AI research. I am also a member of [EdinburghNLP](https://edinburghnlp.inf.ed.ac.uk/).
-
-Prior to starting my PhD, I spent time at [Baidu NLP](https://nlp.baidu.com/) as a Research Intern where I worked on Open-domain Question Answering and Dense Retrieval. I obtained my MSc from University of Edinburgh and worked on text summarization and structured prediction.
+My industrial research experience includes Meta FAIR, Apple AIML (Apple AIML PhD Fellowship), Nvidia Research, and Baidu NLP. I was selected for the ELLIS PhD program (highly competitive) and have led projects that advanced omnimodal concept modeling, in-context retrieval and reasoning, and faithful generation.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

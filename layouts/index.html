@@ -111,9 +111,25 @@
 
     <section id="publications" class="zsq-section">
       <h2>Selected Publications</h2>
+      <div class="zsq-filter">
+        <span class="zsq-filter-label">Filter:</span>
+        <button class="zsq-filter-btn is-active" data-tag="all" type="button">All</button>
+        {{ $tags := slice }}
+        {{ range $pubs }}
+          {{ with .tags }}
+            {{ range . }}
+              {{ $tags = $tags | append . }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        {{ $tags = uniq $tags | sort }}
+        {{ range $tags }}
+          <button class="zsq-filter-btn" data-tag="{{ . }}" type="button">{{ . }}</button>
+        {{ end }}
+      </div>
       <div class="zsq-pubs">
         {{ range $pubs }}
-          <div class="zsq-pub">
+          <div class="zsq-pub" data-tags="{{ with .tags }}{{ delimit . "," }}{{ end }}">
             <div class="zsq-pub-figure">
               {{ if .figure }}
                 <img src="{{ .figure }}" alt="{{ .title }}">
@@ -124,7 +140,8 @@
             <div class="zsq-pub-body">
               <div class="zsq-pub-title">{{ .title }}</div>
               {{ with .authors }}
-                <div class="zsq-pub-authors">{{ . }}</div>
+                {{ $authors := replace . "Yifu Qiu" "<strong>Yifu Qiu</strong>" }}
+                <div class="zsq-pub-authors">{{ $authors | safeHTML }}</div>
               {{ end }}
               {{ with .venue }}
                 <div class="zsq-pub-venue">{{ . }}</div>
@@ -132,7 +149,7 @@
               {{ with .tags }}
                 <div class="zsq-pub-tags">
                   {{ range . }}
-                    <span class="zsq-tag">{{ . }}</span>
+                    <button class="zsq-tag" data-tag="{{ . }}" type="button">{{ . }}</button>
                   {{ end }}
                 </div>
               {{ end }}
@@ -150,6 +167,36 @@
           </div>
         {{ end }}
       </div>
+      <script>
+        (function () {
+          var filterButtons = document.querySelectorAll(".zsq-filter-btn");
+          var tagButtons = document.querySelectorAll(".zsq-tag");
+          var pubs = document.querySelectorAll(".zsq-pub");
+
+          function setActiveTag(tag) {
+            filterButtons.forEach(function (btn) {
+              btn.classList.toggle("is-active", btn.dataset.tag === tag);
+            });
+            pubs.forEach(function (pub) {
+              var tags = (pub.dataset.tags || "").split(",").filter(Boolean);
+              var show = tag === "all" || tags.indexOf(tag) !== -1;
+              pub.style.display = show ? "" : "none";
+            });
+          }
+
+          filterButtons.forEach(function (btn) {
+            btn.addEventListener("click", function () {
+              setActiveTag(btn.dataset.tag);
+            });
+          });
+
+          tagButtons.forEach(function (btn) {
+            btn.addEventListener("click", function () {
+              setActiveTag(btn.dataset.tag);
+            });
+          });
+        })();
+      </script>
     </section>
   </div>
 </main>
