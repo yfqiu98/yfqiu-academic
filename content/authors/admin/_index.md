@@ -78,13 +78,13 @@ highlight_name: true
 ---
 I am a final-year PhD researcher in Natural Language Processing at the University of Edinburgh and the University of Cambridge through the [ELLIS PhD Program](https://ellis.eu/research/phd-postdoc), advised by [Shay Cohen](https://homepages.inf.ed.ac.uk/scohen/), [Anna Korhonen](https://sites.google.com/site/annakorhonen/), and [Edoardo Ponti](https://ducdauge.github.io/). I am a recipient of the [Apple Scholars in AIML PhD Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2023), recognizing emerging leaders in AI/ML research, and a member of the ELLIS PhD Program, a pan-European network for excellence in artificial intelligence.
 
-My research investigates whether large foundation models (e.g., LLM and VLM) develop a **latent world models** across modalities such as text, vision, and speech. Latent world modelling refers to a model’s intrinsic understanding of the environment and agent dynamics, thus enabling reasoning and planning without an external, specialised world model. Specifically, my interest spans:
+My research investigates whether large foundation models (LFM; e.g., LLM and VLM) develop a **latent world models** across modalities such as text, vision, and speech. Latent world modelling refers to a model’s intrinsic understanding of the environment and agent dynamics, thus enabling reasoning and planning without an external, specialised world model. Specifically, my interest spans:
 
-1. **World modelling as an emergent capability** — assessing whether foundation models can simulate future states and causal dynamics without hallucination.
+1. **World modelling as an emergent capability** — eliciting LFM to simulate future states and causal dynamics without hallucination, with no or partial supervision.
 
-2. **Language grounding** — examining how abstract linguistic representations connect to physical and perceptual reality.
+2. **Language grounding** — examining how abstract linguistic representations connect to physical and perceptual reality in LFM.
 
-3. **Hallucination mitigation** — designing interventions and evaluation frameworks to diagnose and reduce model hallucinations.
+3. **Hallucination mitigation** — designing interventions and evaluation frameworks to diagnose and reduce hallucinations in LFM.
 
 I have multiple first-author publications at leading AI venues, including **ICLR, NeurIPS, ACL, EMNLP, and NAACL**. My research is complemented by industry collaborations with **Meta FAIR, Apple AIML, NVIDIA Research, and Baidu NLP**, spanning both fundamental and applied foundation model research.
 
