@@ -78,15 +78,15 @@ highlight_name: true
 ---
 I am a final-year PhD researcher in Natural Language Processing at the University of Edinburgh and the University of Cambridge through the [European Lab for Learning and Intelligent Systems (ELLIS) Network](https://ellis.eu/), advised by [Shay Cohen](https://homepages.inf.ed.ac.uk/scohen/), [Anna Korhonen](https://sites.google.com/site/annakorhonen/), and [Edoardo Ponti](https://ducdauge.github.io/). I am a recipient of the [Apple Scholars in AIML PhD Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2023), recognizing emerging leaders in AI/ML research, and a member of the [ELLIS PhD Cohort](https://ellis.eu/research/phd-postdoc), a pan-European network for excellence in artificial intelligence.
 
-My research investigates whether large foundation models (LFM; e.g., LLM and VLM) develop a **latent world models** across modalities such as text, vision, and speech. Latent world modelling refers to a model’s intrinsic understanding of the environment and agent dynamics, thus enabling reasoning and planning without an external, specialised world model. Specifically, my interest spans:
+My research investigates whether large foundation models (LFM; e.g., LLM and VLM) develop a **latent world models** across modalities such as text, vision, and speech. Latent world modelling refers to a model’s intrinsic understanding of the environment and agent dynamics, thus enabling reasoning and planning without an external, specialised world model. Around this, my interest spans:
 
 1. **World modelling as an emergent capability** — eliciting LFM to simulate future states and causal dynamics without hallucination, with the novel training paradigm requiring minimum supervision. (🌀 [SWIRL](https://github.com/yfqiu-nlp/swirl), [BoostrapWM](https://arxiv.org/abs/2506.06006))
 
 2. **Language grounding** — examining how abstract linguistic representations connect to physical and perceptual reality (e.g., spatial/temporal system) in LFM. (⏳ [TemporalGrounding](https://aclanthology.org/2024.naacl-long.391/), [SpatialGrounding](https://arxiv.org/abs/2601.22228))
 
-3. **Next-generation model architecture** — advancing unified architectures for any-to-any multimodal generation and reasoning, serving as the substrate for emergent latent world models (💭 [vLCM](https://openreview.net/forum?id=4LiX5ddGcU)).
+3. **Next-generation model architecture** — advancing unified architecture for the omnimodal FM with any-to-any modality, serving as the substrate for emergent latent world models (💭 [vLCM](https://openreview.net/forum?id=4LiX5ddGcU)).
 
-4. **Hallucination mitigation** — designing interventions and evaluation frameworks to diagnose and reduce hallucinations in LFM. (🍄 [SEA](https://neurips.cc/virtual/2024/poster/93529), [mFACT](https://aclanthology.org/2023.emnlp-main.551/), [ICR2](https://aclanthology.org/2025.findings-acl.165/), [TWEAK](https://machinelearning.apple.com/research/write-hypothesis)).
+4. **Hallucination mitigation** — designing interventions and evaluation frameworks to diagnose and reduce hallucinations in LFM. (🍄 [SEA](https://neurips.cc/virtual/2024/poster/93529), [mFACT](https://aclanthology.org/2023.emnlp-main.551/), [ICR2](https://aclanthology.org/2025.findings-acl.165/), [TWEAK](https://machinelearning.apple.com/research/write-hypothesis))
 
 I have multiple first-author publications at leading AI venues, including **ICLR, NeurIPS, ACL, EMNLP, and NAACL**. My research is complemented by industry collaborations with **Meta FAIR, Apple AIML, NVIDIA Research, and Baidu NLP**, spanning both fundamental and applied foundation model research.
 
