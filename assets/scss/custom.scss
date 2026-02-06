@@ -167,6 +167,26 @@ footer,
   margin: 0 0 10px;
 }
 
+.zsq-bio a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  border: 1px solid var(--zsq-border);
+  color: var(--zsq-link);
+  background: var(--zsq-card);
+  text-decoration: none;
+  line-height: 1.4;
+}
+
+.zsq-bio a:hover {
+  text-decoration: none;
+  background: var(--zsq-link);
+  color: #fff;
+}
+
 .zsq-list {
   list-style: disc;
   padding-left: 18px;
