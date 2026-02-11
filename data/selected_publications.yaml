@@ -4,7 +4,7 @@
   figure: /uploads/publication-figures/self-improving-world-modelling-with-latent-actions.gif
   tags: [Latent-World-Model]
   links:
-    paper: https://github.com/yfqiu-nlp/swirl
+    paper: https://arxiv.org/abs/2602.06130
 
 - title: Unified Vision-Language Modeling via Concept Space Alignment
   authors: Yifu Qiu, Paul-Ambroise Duquenne, Holger Schwenk
