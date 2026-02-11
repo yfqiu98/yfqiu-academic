@@ -80,7 +80,7 @@ I am a final-year PhD researcher in Natural Language Processing at the Universit
 
 My research investigates whether large foundation models (LFM; e.g., LLM and VLM) develop a **latent world models** across modalities such as text, vision, and speech. Latent world modelling refers to a model’s intrinsic understanding of the environment and agent dynamics, thus enabling reasoning and planning without an external, specialized world model. Around this, my interest spans:
 
-1. **World modelling as an emergent capability** — eliciting LFM to simulate future states and causal dynamics, with the novel training paradigm requiring minimum supervision. (🌀 [SWIRL](https://github.com/yfqiu-nlp/swirl), [BoostrapWM](https://arxiv.org/abs/2506.06006))
+1. **World modelling as an emergent capability** — eliciting LFM to simulate future states and causal dynamics, with the novel training paradigm requiring minimum supervision. (🌀 [SWIRL](https://arxiv.org/abs/2602.06130), [BoostrapWM](https://arxiv.org/abs/2506.06006))
 
 2. **Language grounding** — examining how abstract linguistic representations connect to physical and perceptual reality (e.g., spatial/temporal system) in LFM. (⏳ [TemporalGrounding](https://aclanthology.org/2024.naacl-long.391/), [SpatialGrounding](https://arxiv.org/abs/2601.22228))
 
