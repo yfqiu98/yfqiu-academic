@@ -1,3 +1,11 @@
+- title: Student Researcher
+  company: Google DeepMind
+  location: London, 🇬🇧
+  date_start: 2026-04-01
+  date_end: 2026-09-30
+  logo: /uploads/deepmind-logo.png
+  summary: Reward Modeling for World Models.
+
 - title: Research Scientist Intern
   company: Meta FAIR (Fundamental AI Research)
   location: Paris, 🇫🇷
