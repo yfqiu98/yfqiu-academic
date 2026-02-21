@@ -88,6 +88,6 @@ My research investigates whether large foundation models (LFM; e.g., LLM and VLM
 
 4. **Hallucination mitigation** — designing interventions and evaluation frameworks to diagnose and reduce hallucinations in LFM. (🍄 [SEA](https://neurips.cc/virtual/2024/poster/93529), [mFACT](https://aclanthology.org/2023.emnlp-main.551/), [ICR2](https://aclanthology.org/2025.findings-acl.165/), [TWEAK](https://machinelearning.apple.com/research/write-hypothesis))
 
-I have multiple first-author publications at leading AI venues, including **ICLR, NeurIPS, ACL, EMNLP, and NAACL**. My research is complemented by industry collaborations with **Meta FAIR, Apple AIML, NVIDIA Research, and Baidu NLP**, spanning both fundamental and applied foundation model research.
+I have multiple first-author publications at leading AI venues, including **ICLR, NeurIPS, ACL, EMNLP, and NAACL**. My research is complemented by industry collaborations with **Google DeepMind, Meta FAIR, Apple AIML, NVIDIA Research, and Baidu NLP**, spanning both fundamental and applied foundation model research.
 
 **I am on the 2026 job market for industrial research scientist positions. I am actively looking for positions based in** 🇨🇳/🇬🇧/🇨🇭/🇺🇸/🇪🇺/🇸🇬.
