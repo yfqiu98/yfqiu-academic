@@ -47,7 +47,7 @@
     paper: https://aclanthology.org/2025.emnlp-main.1488/
 
 - title: Spectral Editing of Activations for Large Language Model Alignment
-  authors: Yifu Qiu, Zheng Zhao, Anna Korhonen, Edoardo Ponti, Shay Cohen
+  authors: Yifu Qiu, Zheng Zhao, Yftah Ziser, Anna Korhonen, Edoardo Ponti, Shay Cohen
   venue: NeurIPS 2024
   figure: /uploads/publication-figures/spectral-editing-of-activations.png
   tags: [Language-Grounding, Hallucination, Safety]
@@ -55,7 +55,7 @@
     paper: https://neurips.cc/virtual/2024/poster/93529
 
 - title: Are Large Language Models Temporally Grounded?
-  authors: Yifu Qiu, Zheng Zhao, Anna Korhonen, Edoardo Ponti, Shay Cohen
+  authors: Yifu Qiu, Zheng Zhao, Yftah Ziser, Anna Korhonen, Edoardo Ponti, Shay Cohen
   venue: NAACL 2024
   figure: /uploads/publication-figures/are-large-language-model-temporall-grounded.png
   tags: [Language-Grounding]
@@ -71,7 +71,7 @@
     paper: https://machinelearning.apple.com/research/write-hypothesis
 
 - title: Detecting and Mitigating Hallucinations in Multilingual Summarisation
-  authors: Yifu Qiu, Anna Korhonen, Edoardo Ponti, Shay Cohen
+  authors: Yifu Qiu, Yftah Ziser, Anna Korhonen, Edoardo Ponti, Shay Cohen
   venue: EMNLP 2023
   figure: /uploads/publication-figures/detecting-and-mitigating-hallucination-in-multilingual-summarisation.png
   tags: [Hallucination]
